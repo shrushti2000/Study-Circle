@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Neuton&family=Philosopher&family=Sansita+Swashed:wght@300&display=swap');
+
+/**
+font-family: 'Great Vibes', cursive;
+font-family: 'Neuton', serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+**/
+
+body{
+  background-image: url("./book2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.auth-card{
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 700px;
+}
+
+.title{
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+
+}
+
+.brand-logo{
+  font-family: 'Great Vibes', cursive;
+}
+
+.home{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-card{
+  width: 25%;
+  margin: 20px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    flex-direction: column;
+
+  }
+  .home-card{
+    width: 90%;
+    margin: 20px 20px;
+  }
+  body{
+    background-image: none;
+    
+    background-size: cover;
+    height: 100vh;
+  }
+
+}
